@@ -1,0 +1,22 @@
+.admin-loading {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.page-header-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.view-toggle {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.navbar-link.active {
+  color: var(--primary);
+  font-weight: 500;
+}

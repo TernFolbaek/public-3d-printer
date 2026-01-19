@@ -1,0 +1,74 @@
+.app {
+  min-height: 100vh;
+}
+
+.navbar {
+  background: white;
+  border-bottom: 1px solid var(--gray-200);
+  padding: 1rem 0;
+}
+
+.navbar .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-brand {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: var(--gray-900);
+  text-decoration: none;
+}
+
+.navbar-nav {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.navbar-link {
+  color: var(--gray-600);
+  text-decoration: none;
+  font-size: 0.875rem;
+}
+
+.navbar-link:hover {
+  color: var(--gray-900);
+}
+
+.user-info {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.user-avatar {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+}
+
+.user-name {
+  font-size: 0.875rem;
+  color: var(--gray-700);
+}
+
+.main-content {
+  padding: 2rem 0;
+}
+
+.page-header {
+  margin-bottom: 2rem;
+}
+
+.page-title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: var(--gray-900);
+}
+
+.page-description {
+  color: var(--gray-600);
+  margin-top: 0.25rem;
+}
