@@ -1,7 +1,20 @@
 # 3D Printer Job Queue
 
+Purpose of this project was to allow friends to enqueue print jobs to my Bambu-lab P1S.
+My rpi5 would function as the private server connected to the same LAN as the printer. The rpi5 would
+then poll the "fly-app" (web-app is the UI where they select their sliced .3mf plate) where these print jobs were enqueued. 
+This however forced me to make the printer 
+Lan Mode "only", and developer mode "on". Which came with large warning message. Gave it a shot, it functioned,
+but decided to not run the project after that as I don't fully trust the Bambu software to make a verdict
+on whether a print is safe or not.
+
+
+<img width="800" height="639" alt="Screenshot 2026-01-27 at 09 32 26" src="https://github.com/user-attachments/assets/ff3f1b4e-0f84-4e40-b0b7-181d399e82fb" />
+
 A web application for managing 3D print job submissions with user authentication and admin approval workflows.
 
+
+### Claude explanation of architecture:
 ## Architecture
 
 | Component | Stack | Purpose |
